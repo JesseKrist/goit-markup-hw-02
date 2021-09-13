@@ -134,9 +134,13 @@ h2 {
   border: none;
 }
 
+.buttons-list {
+  display: inline;
+}
+
 .buttons-list button {
   padding: 6px 22px 6px 22px;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
