@@ -6,6 +6,7 @@
   --black_rock-color: #2f303a;
   --nero-color: #212121;
   --dodger_blue-color: #2196f3;
+  --curious_blue-color: #188CE8;
 }
 
 * {
@@ -134,8 +135,8 @@ h2 {
   border: none;
 }
 
-.buttons-list {
-  display: inline;
+.slogan-btn-order:hover {
+  background-color: var(--curious_blue-color);
 }
 
 .buttons-list button {
@@ -224,4 +225,11 @@ h2 {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--sonic_silver-color);
+}
+
+.semantical {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
 }
